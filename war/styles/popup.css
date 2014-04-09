@@ -1,0 +1,85 @@
+/* Styles for the popup window. */
+
+body {
+  width: 550px;
+  background: #f0f0f0;
+  font-family: 'Droid Sans', arial, sans-serif;
+}
+
+.connected {
+  background: hsla(90, 50%, 70%, 1);
+}
+
+.red {
+  background: #E3182D;
+}
+
+.blue {
+  background: #0087F7;
+}
+
+.green {
+  background: #00BD27;
+}
+
+.yellow {
+  background: #FFDF00;
+}
+.colorStrip div {
+  height: 3px;
+}
+
+.colorStrip div {
+  float:left;
+  width: 25%;
+  height: 3px;
+}
+
+ul {
+  margin: 1px 0 0 0;
+}
+
+.popup-title {
+  text-align: center;
+  color: hsl(220, 100%, 30%);
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 5px 0 0;
+}
+
+.section {
+  margin-left: 25px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0 0 0;
+}
+
+.sub-section {
+  margin-left: 26px;
+}
+
+#discovered-devices-list {
+  margin-top: 8px;
+}
+
+.ip-address-tip {
+  font-size: 14px;
+  font-style: italic;
+  color: #444;
+}
+
+.right {
+  float: right;
+}
+
+#challenge-field {
+  margin-left: 91px;
+}
+
+

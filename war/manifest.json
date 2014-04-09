@@ -1,0 +1,58 @@
+{
+  "default_locale": "en",
+  "name": "__MSG_name__",
+  "version": "1.1404.8",
+  "manifest_version": 2,
+  "incognito": "spanning",
+  "minimum_chrome_version": "18",
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://www.paypalobjects.com https://*.google.com https://*.facebook.net https://*.facebook.com https://*.fbcdn.net https://*.twitter.com; object-src 'self'",
+  
+  "description": "A better way to control Google TV. Fling videos, links, images, launch apps, plus full remote control of all your Google TVs.",
+  "icons":{ 
+  			"16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+           "128": "icons/icon128.png" },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon" : "icons/icon19.png",
+    "default_title": "Chromemote - The Google TV Remote for Chrome" 
+  },
+  "background": {
+    "scripts": ["js/background.js",
+    			"js/bgpage_anymote_session_controller_.js",
+    			"js/bgpage_googletvremote_constants.js"]
+  },
+  "options_page" : "tab.html",
+  "plugins": [
+    { "path": "plugins/gtvremote64_chromemote_plugin.so" },
+    { "path": "plugins/gtvremote32_chromemote_plugin.so" },
+    { "path": "plugins/gtvremote_chromemote_plugin.plugin" },
+    { "path": "plugins/gtvremote_chromemote_plugin.dll" }
+  ],
+  "permissions": [
+    "http://*/*", "https://*/*", "tabs", "background", "contextMenus","storage"
+  ],
+  "homepage_url": "http://www.Chromemote.com/",
+  "offline_enabled": true,
+  "requirements": {
+    "plugins": {
+      "npapi": false
+    }
+  },
+  "web_accessible_resources": [ 
+  	"images/flinger/yt_fling_icon.png"
+  ],
+  "content_scripts": [ {
+	  "all_frames": false,
+	  "js": [ "js/contentscript_youtube.js" ],
+	  "matches": [ "*://*.youtube.com/*", "*://youtube.com/*" ],
+	  "run_at": "document_end"
+  },
+  {
+	  "all_frames": false,
+	  "js": [ "js/contentscript_installed.js" ],
+	  "matches": [ "*://*.chromemote.com/*", "*://chromemote.com/*" ],
+	  "run_at": "document_end"
+  }
+  ]
+}

@@ -1,0 +1,2629 @@
+body { 
+	
+	
+    font-family			: 'DroidSansRegular';
+    margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+a {	
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {	
+	color: #FFFFFF; 
+	text-decoration: underline;
+}
+
+a:visited {	
+	color: #FFFFFF; 
+	
+}
+
+.toast {
+  background-color: #282828;
+  border: 1px solid #868686;
+  border-radius: 3px;
+  color: #d4d4d4;
+  font-size: 12px;
+  opacity: 0;
+  padding: 5px;
+  top: 430px;
+  left: 50%;
+  margin-left: -117px;
+  position:fixed;
+  text-align:center;
+  
+  -webkit-transition: opacity 1s ease-out;
+  -webkit-box-shadow: 0px 0px 8px 3px #868686;
+  
+  width: 220px; 
+}
+
+.toast_tab {
+  background-color: #282828;
+  border: 1px solid #868686;
+  border-radius: 3px;
+  color: #d4d4d4;
+  font-size: 12px;
+  opacity: 0;
+  padding: 5px;
+  top: 430px;
+  left: 50%;
+  margin-left: -117px;
+  position:fixed;
+  text-align:center;
+  
+  -webkit-transition: opacity 1s ease-out;
+  -webkit-box-shadow: 0px 0px 8px 3px #868686;
+  
+  width: 220px; 
+}
+
+.toast_small {
+  background-color: #282828;
+  border: 1px solid #868686;
+  border-radius: 3px;
+  color: #d4d4d4;
+  font-size: 12px;
+  opacity: 0;
+  padding: 5px;
+  top: 430px;
+  left: 50%;
+  margin-left: -42px;
+  position:fixed;
+  text-align:center;
+  
+  -webkit-transition: opacity 1s ease-out;
+  -webkit-box-shadow: 0px 0px 8px 3px #868686;
+  
+  width: 75px; 
+}
+
+.toast_tab_small {
+  background-color: #282828;
+  border: 1px solid #868686;
+  border-radius: 3px;
+  color: #d4d4d4;
+  font-size: 12px;
+  opacity: 0;
+  padding: 5px;
+  top: 430px;
+  left: 50%;
+  margin-left: -42px;
+  position:fixed;
+  text-align:center;
+  
+  -webkit-transition: opacity 1s ease-out;
+  -webkit-box-shadow: 0px 0px 8px 3px #868686;
+  
+  width: 75px; 
+}
+
+#preloader {
+    /* IMAGES TO PRELOAD*/
+    background-image: url(images/background_touched_01.png);
+    background-image: url(images/background_touched_02.png);
+    background-image: url(images/background_touched_03.png);
+    background-image: url(images/background_touched_04.png);
+    background-image: url(images/background_touched_05.png);
+    background-image: url(images/background_touched_06.png);
+    background-image: url(images/background_touched_07.png);
+    background-image: url(images/background_touched_08.png);
+    background-image: url(images/background_touched_09.png);
+    background-image: url(images/background_touched_10.png);
+    background-image: url(images/background_touched_11.png);
+    background-image: url(images/background_touched_12.png);
+    background-image: url(images/background_touched_13.png);
+    background-image: url(images/background_touched_14.png);
+    background-image: url(images/background_touched_15.png);
+    background-image: url(images/background_touched_16.png);
+    background-image: url(images/background_touched_17.png);
+    background-image: url(images/background_touched_18.png);
+    background-image: url(images/background_touched_19.png);
+    background-image: url(images/background_touched_20.png);
+    background-image: url(images/background_touched_21.png);
+    background-image: url(images/background_touched_22.png);
+    background-image: url(images/background_touched_23.png);
+    background-image: url(images/background_touched_24.png);
+    background-image: url(images/background_touched_25.png);
+    background-image: url(images/background_touched_26.png);
+    background-image: url(images/background_touched_27.png);
+    background-image: url(images/background_touched_28.png);
+    width: 0px;
+    height: 0px;
+    display: inline;
+}
+
+
+@font-face {
+    font-family: 'DroidSansRegular';
+    src: url('font/DroidSans-webfont.eot');
+    src: url('font/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/DroidSans-webfont.woff') format('woff'),
+         url('font/DroidSans-webfont.ttf') format('truetype'),
+         url('font/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DroidSansBold';
+    src: url('font/DroidSans-Bold-webfont.eot');
+    src: url('font/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/DroidSans-Bold-webfont.woff') format('woff'),
+         url('font/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('font/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.chromemote-PushButton
+{
+	overflow					:	hidden;
+    background-repeat			:	no-repeat;
+    border                      :   0px;
+ 
+    color						:	#ECECEC;
+    text-shadow					:	2px 1px 1px #333333;
+    font-family					:	'DroidSansRegular';
+    font-weight					:	bold;
+    font-size					:	18px;
+    line-height					:	19px;
+    vertical-align				:	middle;
+    text-align					:	center;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    word-spacing				:	0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    
+    cursor                      :	pointer;
+    outline						:	none;
+
+    -webkit-user-select: none;
+}
+.chromemote-PushButton-down-hovering
+{
+	cursor                      :	pointer;
+}
+.chromemote-PushButton-up-hovering
+{
+}
+
+.chromemote-PushButton-alt
+{
+    line-height					:	10px;
+    font-size					:	10px;
+    word-spacing				:	0px;
+    text-align					:	left;
+    margin                      :   0px 4px;
+    padding                     :   0 0px;
+    height						:	0px;
+    
+}
+
+/* Style for Remote Button 01 */
+.chromemote-PushButton1
+{
+	background-image			: 	url(images/background_01.png);   
+}
+
+.chromemote-PushButton1-down-hovering
+{
+	background-image			: 	url(images/background_touched_01.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 02 */
+.chromemote-PushButton2
+{
+	background-image			: 	url(images/background_02.png);   
+}
+
+.chromemote-PushButton2-down-hovering
+{
+	background-image			: 	url(images/background_touched_02.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 03 */
+.chromemote-PushButton3
+{
+	background-image			: 	url(images/background_03.png);   
+}
+
+.chromemote-PushButton3-down-hovering
+{
+	background-image			: 	url(images/background_touched_03.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 04 */
+.chromemote-PushButton4
+{
+	background-image			: 	url(images/background_04.png);   
+}
+
+.chromemote-PushButton4-down-hovering
+{
+	background-image			: 	url(images/background_touched_04.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 04 - TPAD ALTERNATE */
+.chromemote-PushButton4-alt
+{
+	background-image			: 	url(images/background_04_alt.png);   
+}
+
+.chromemote-PushButton4-alt-down-hovering
+{
+	background-image			: 	url(images/background_touched_04.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 05 */
+.chromemote-PushButton5
+{
+	background-image			: 	url(images/background_05.png);   
+}
+
+.chromemote-PushButton5-down-hovering
+{
+	background-image			: 	url(images/background_touched_05.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 06 */
+.chromemote-PushButton6
+{
+	background-image			: 	url(images/background_06.png);   
+}
+
+.chromemote-PushButton6-down-hovering
+{
+	background-image			: 	url(images/background_touched_06.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 07 */
+.chromemote-PushButton7
+{
+	background-image			: 	url(images/background_07.png);   
+}
+
+.chromemote-PushButton7-down-hovering
+{
+	background-image			: 	url(images/background_touched_07.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 08 */
+.chromemote-PushButton8
+{
+	background-image			: 	url(images/background_08.png);   
+}
+
+.chromemote-PushButton8-down-hovering
+{
+	background-image			: 	url(images/background_touched_08.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 09 */
+.chromemote-PushButton9
+{
+	background-image			: 	url(images/background_09.png);   
+}
+
+.chromemote-PushButton9-down-hovering
+{
+	background-image			: 	url(images/background_touched_09.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 10 */
+.chromemote-PushButton10
+{
+	background-image			: 	url(images/background_10.png);   
+}
+
+.chromemote-PushButton10-down-hovering
+{
+	background-image			: 	url(images/background_touched_10.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 11 */
+.chromemote-PushButton11
+{
+	background-image			: 	url(images/background_11.png);   
+}
+
+.chromemote-PushButton11-down-hovering
+{
+	background-image			: 	url(images/background_touched_11.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 12 */
+.chromemote-PushButton12
+{
+	background-image			: 	url(images/background_12.png);   
+}
+
+.chromemote-PushButton12-down-hovering
+{
+	background-image			: 	url(images/background_touched_12.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 13 */
+.chromemote-PushButton13
+{
+	background-image			: 	url(images/background_13.png);   
+}
+
+.chromemote-PushButton13-down-hovering
+{
+	background-image			: 	url(images/background_touched_13.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 14 */
+.chromemote-PushButton14
+{
+	background-image			: 	url(images/background_14.png);   
+}
+
+.chromemote-PushButton14-down-hovering
+{
+	background-image			: 	url(images/background_touched_14.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 15 */
+.chromemote-PushButton15
+{
+	background-image			: 	url(images/background_15.png);   
+}
+
+.chromemote-PushButton15-down-hovering
+{
+	background-image			: 	url(images/background_touched_15.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 16 */
+.chromemote-PushButton16
+{
+	background-image			: 	url(images/background_16.png);   
+}
+
+.chromemote-PushButton16-down-hovering
+{
+	background-image			: 	url(images/background_touched_16.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 17 */
+.chromemote-PushButton17
+{
+	background-image			: 	url(images/background_17.png);
+	
+}
+
+.chromemote-PushButton17-down-hovering
+{
+	background-image			: 	url(images/background_touched_17.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 17 - wide */
+.chromemote-PushButton17-wide
+{
+	background-image			: 	url(images/background_17_wide.png);
+	text-align					:	left;
+	
+}
+
+.chromemote-PushButton17-wide-down-hovering
+{
+	background-image			: 	url(images/background_touched_17_wide.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 18 */
+.chromemote-PushButton18
+{
+	background-image			: 	url(images/background_18.png);
+}
+
+.chromemote-PushButton18-down-hovering
+{
+	background-image			: 	url(images/background_touched_18.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 19 */
+.chromemote-PushButton19
+{
+	background-image			: 	url(images/background_19.png);
+	
+}
+
+.chromemote-PushButton19-down-hovering
+{
+	background-image			: 	url(images/background_touched_19.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 19 - wide */
+.chromemote-PushButton19-wide
+{
+	background-image			: 	url(images/background_19_wide.png);
+	text-align					:	right;
+	
+}
+
+.chromemote-PushButton19-wide-down-hovering
+{
+	background-image			: 	url(images/background_touched_19_wide.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 20 */
+.chromemote-PushButton20
+{
+	background-image			: 	url(images/background_20.png);
+}
+
+.chromemote-PushButton20-down-hovering
+{
+	background-image			: 	url(images/background_touched_20.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 21 */
+.chromemote-PushButton21
+{
+	background-image			: 	url(images/background_21.png);   
+}
+
+.chromemote-PushButton21-down-hovering
+{
+	background-image			: 	url(images/background_touched_21.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 21 - wide */
+.chromemote-PushButton21-wide
+{
+	background-image			: 	url(images/background_21_wide.png);   
+	text-align					:	left;
+}
+
+.chromemote-PushButton21-wide-down-hovering
+{
+	background-image			: 	url(images/background_touched_21_wide.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 22 */
+.chromemote-PushButton22
+{
+	background-image			: 	url(images/background_22.png);   
+}
+
+.chromemote-PushButton22-down-hovering
+{
+	background-image			: 	url(images/background_touched_22.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 23 */
+.chromemote-PushButton23
+{
+	background-image			: 	url(images/background_23.png);   
+}
+
+.chromemote-PushButton23-down-hovering
+{
+	background-image			: 	url(images/background_touched_23.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 23 - wide */
+.chromemote-PushButton23-wide
+{
+	background-image			: 	url(images/background_23_wide.png); 
+	text-align					:	right;
+}
+
+.chromemote-PushButton23-wide-down-hovering
+{
+	background-image			: 	url(images/background_touched_23_wide.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 24 */
+.chromemote-PushButton24
+{
+	background-image			: 	url(images/background_24.png);   
+}
+
+.chromemote-PushButton24-down-hovering
+{
+	background-image			: 	url(images/background_touched_24.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 25 */
+.chromemote-PushButton25
+{
+	background-image			: 	url(images/background_25.png);   
+}
+
+.chromemote-PushButton25-down-hovering
+{
+	background-image			: 	url(images/background_touched_25.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 26 */
+.chromemote-PushButton26
+{
+	background-image			: 	url(images/background_26.png);   
+}
+
+.chromemote-PushButton26-down-hovering
+{
+	background-image			: 	url(images/background_touched_26.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 27 */
+.chromemote-PushButton27
+{
+	background-image			: 	url(images/background_27.png);   
+}
+
+.chromemote-PushButton27-down-hovering
+{
+	background-image			: 	url(images/background_touched_27.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 28 */
+.chromemote-PushButton28
+{
+	background-image			: 	url(images/background_28.png);   
+}
+
+.chromemote-PushButton28-down-hovering
+{
+	background-image			: 	url(images/background_touched_28.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 29 */
+.chromemote-PushButton29
+{
+	background-image			: 	url(images/background_29.png);   
+}
+
+.chromemote-PushButton29-down-hovering
+{
+	background-image			: 	url(images/background_touched_29.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+/* Style for Remote Button 29 - ALTERNATE */
+.chromemote-PushButton29-alt
+{
+	background-image			: 	url(images/background_29_alt.png);   
+}
+
+.chromemote-PushButton29-alt-down-hovering
+{
+	background-image			: 	url(images/background_touched_29.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 30 */
+.chromemote-PushButton30
+{
+	background-image			: 	url(images/background_30.png);   
+}
+
+.chromemote-PushButton30-down-hovering
+{
+	background-image			: 	url(images/background_touched_30.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 31 */
+.chromemote-PushButton31
+{
+	background-image			: 	url(images/background_31.png);   
+}
+
+.chromemote-PushButton31-down-hovering
+{
+	background-image			: 	url(images/background_touched_31.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+
+/* Style for Remote Button 32 */
+.chromemote-PushButton32
+{
+	background-image			: 	url(images/background_32.png);   
+}
+
+.chromemote-PushButton32-down-hovering
+{
+	background-image			: 	url(images/background_touched_32.png);
+    text-shadow					:	2px 1px 1px #ECECEC;
+ 	color						:	#333333;
+}
+
+.chromemote-donate-PushButton
+{
+    background-repeat			:	no-repeat;
+    border                      :   0px;
+ 
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    word-spacing				:	0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    
+    cursor                      :	pointer;
+    outline						:	none;
+    
+    background-image			: 	url(images/tipjar.png);   
+}
+.chromemote-donate-PushButton-down-hovering
+{
+	cursor                      :	pointer;
+	position					: 	relative;
+	top							: 	1px;
+}
+
+.gtvRemote-incompatiblePanel
+{
+	background-color			: 	#333333;
+}
+
+.gtvRemote-incompatiblePanel
+{
+	color						:	#FFFFFF;
+    text-shadow					:	1px 1px 1px #333333;
+    font-family					:	'DroidSansRegular';
+    font-size					:	16px;
+    word-spacing				:	0px;
+    text-align					:	left;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+	background-color			:	transparent;
+	
+	border-bottom				:	1px solid #414141;
+}
+
+
+.chromemote-alertInfoLabel {
+	color					: #d8d2cb;
+    text-shadow				: 1px 1px 1px #333333;
+	font-family				: 'DroidSansRegular';
+    font-size				: 14px;
+    -webkit-user-select: none;
+}
+.chromemote-alertInfoLabelTitle {
+	color					: #d8d2cb;
+	text-shadow				: 1px 1px 1px #333333;
+	font-family				: 'DroidSansBold';
+    font-size				: 16px;
+    -webkit-user-select: none;
+}
+
+
+
+
+
+@keyframes slideOut{ 
+	from { transform: translate( 0px, 0px); } 
+      to { transform: translate( -320px, 0px); } 
+} 
+
+@-moz-keyframes slideOut{ 
+	from { -moz-transform: translate( 0px, 0px); } 
+      to { -moz-transform: translate( -320px, 0px); } 
+} 
+
+@-webkit-keyframes slideOut{ 
+	from { -webkit-transform: translate( 0px, 0px); } 
+   	  to { -webkit-transform: translate( -320px, 0px); } 
+} 
+
+.gtvRemote-PushButton-slideOut{ 
+	display:inline-block;
+	
+	animation-name: slideOut; 
+	animation-duration: 0.40s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideOut; 
+	-moz-animation-duration: 0.40s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideOut; 
+	-webkit-animation-duration: 0.40s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( -320px, 0px);
+	-moz-transform: translate( -320px, 0px);
+}
+
+@keyframes slideIn{ 
+	from { transform: translate( -320px, 0px); } 
+      to { transform: translate(    0px, 0px); } 
+} 
+
+@-moz-keyframes slideIn{ 
+	from { -moz-transform: translate( -320px, 0px); } 
+      to { -moz-transform: translate(    0px, 0px); } 
+} 
+
+@-webkit-keyframes slideIn{ 
+	from { -webkit-transform: translate( -320px, 0px); } 
+   	  to { -webkit-transform: translate(    0px, 0px); } 
+} 
+
+.gtvRemote-PushButton-slideIn{ 
+	display:inline-block;
+	
+	animation-name: slideIn; 
+	animation-duration: 0.40s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideIn; 
+	-moz-animation-duration: 0.40s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideIn; 
+	-webkit-animation-duration: 0.40s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( 0px, 0px);
+	-moz-transform: translate( 0px, 0px);
+}
+
+
+
+@keyframes scaleOut{ 
+	from { transform: scale( 1); } 
+      to { transform: scale( 0); } 
+} 
+
+@-moz-keyframes scaleOut{ 
+	from { -moz-transform: scale( 1); } 
+      to { -moz-transform: scale( 0); } 
+} 
+
+@-webkit-keyframes scaleOut{ 
+	from { -webkit-transform: scale( 1); } 
+   	  to { -webkit-transform: scale( 0); } 
+} 
+
+.gtvRemote-PushButton-scaleOut{ 
+	display:inline-block;
+	
+	animation-name: scaleOut; 
+	animation-duration: 0.15s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: scaleOut; 
+	-moz-animation-duration: 0.15s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: scaleOut; 
+	-webkit-animation-duration: 0.15s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: scale( 0);
+	-moz-transform: scale( 0);
+}
+
+@keyframes scaleIn{ 
+	from { transform: scale( 0); } 
+      to { transform: scale( 1); } 
+} 
+
+@-moz-keyframes scaleIn{ 
+	from { -moz-transform: scale( 0); } 
+      to { -moz-transform: scale( 1); } 
+} 
+
+@-webkit-keyframes scaleIn{ 
+	from { -webkit-transform: scale( 0); } 
+   	  to { -webkit-transform: scale( 1); } 
+} 
+
+.gtvRemote-PushButton-scaleIn{ 
+	display:inline-block;
+	
+	animation-name: scaleIn; 
+	animation-duration: 0.15s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: scaleIn; 
+	-moz-animation-duration: 0.15s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: scaleIn; 
+	-webkit-animation-duration: 0.15s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: scale( 1);
+	-moz-transform: scale( 1);
+}
+
+
+
+
+
+@keyframes scalePopUp{ 
+	from { transform: scale( 1); } 
+      to { transform: scale( 0.5); } 
+} 
+
+@-moz-keyframes scalePopUp{ 
+	from { -moz-transform: scale( 1); } 
+      to { -moz-transform: scale( 0.66); } 
+} 
+
+@-webkit-keyframes scalePopUp{ 
+	from { -webkit-transform: scale( 1); } 
+   	  to { -webkit-transform: scale( 0.66); } 
+} 
+
+.gtvRemote-PushButton-scalePopUp{ 
+	display:inline-block;
+	
+	animation-name: scaleIn; 
+	animation-duration: 0.15s; 
+	transform-origin:66% 66%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: scaleIn; 
+	-moz-animation-duration: 0.15s; 
+	-moz-transform-origin:66% 66%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: scaleIn; 
+	-webkit-animation-duration: 0.15s; 
+	-webkit-transform-origin:66% 66%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: scale( 0.66);
+	-moz-transform: scale( 0.66);
+}
+
+
+
+.gtvRemote-touchPad
+{
+	background-image			: 	url(images/touchpad_withIcon.png);
+	background-size				:	contain;
+	background-repeat			:	no-repeat;
+	border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    cursor                      :	pointer;
+    outline						:	none;
+}
+
+.gtvRemote-touchPad-down-hovering
+{
+    cursor                      :	pointer;
+}
+
+
+.gtvRemote-dPad
+{
+	
+	
+	background-image			: 	url(images/dpad.png);
+	background-size				:	contain;
+	background-repeat			:	no-repeat;
+
+    cursor                      :	pointer;
+    outline						:	none;
+}
+
+
+
+
+@keyframes dPadPressDn{ 
+	from { transform: scale( 1); } 
+      to { transform: scale( 0.99); } 
+} 
+
+@-moz-keyframes dPadPressDn{ 
+	from { -moz-transform: scale( 1); } 
+      to { -moz-transform: scale( 0.99); } 
+} 
+
+@-webkit-keyframes dPadPressDn{ 
+	from { -webkit-transform: scale( 1); } 
+   	  to { -webkit-transform: scale( 0.99); } 
+} 
+
+.gtvRemote-dPad-PressDn{ 
+	display:inline-block;
+	
+	animation-name: dPadPressDn; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: dPadPressDn; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: dPadPressDn; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: scale( 0.99);
+	-moz-transform: scale( 0.99);
+}
+
+@keyframes dPadPressUp{ 
+	from { transform: scale( 0.99); } 
+      to { transform: scale( 1); } 
+} 
+
+@-moz-keyframes dPadPressUp{ 
+	from { -moz-transform: scale( 0.99); } 
+      to { -moz-transform: scale( 1); } 
+} 
+
+@-webkit-keyframes dPadPressUp{ 
+	from { -webkit-transform: scale( 0.99); } 
+   	  to { -webkit-transform: scale( 1); } 
+} 
+
+.gtvRemote-dPad-PressUp{ 
+	display:inline-block;
+	
+	animation-name: dPadPressUp; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: dPadPressUp; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: dPadPressUp; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: scale( 1);
+	-moz-transform: scale( 1);
+}
+
+
+
+
+
+
+//Slide Left And Return
+@keyframes slideLeft{ 
+	from { transform: translate( 0px, 0px); } 
+      to { transform: translate( -3px, 0px); } 
+} 
+
+@-moz-keyframes slideLeft{ 
+	from { -moz-transform: translate( 0px, 0px); } 
+      to { -moz-transform: translate( -3px, 0px); } 
+} 
+
+@-webkit-keyframes slideLeft{ 
+	from { -webkit-transform: translate( 0px, 0px); } 
+   	  to { -webkit-transform: translate( -3px, 0px); } 
+} 
+
+.gtvRemote-dPad-slideLeft{ 
+	display:inline-block;
+	
+	animation-name: slideLeft; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideLeft; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideLeft; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( -3px, 0px);
+	-moz-transform: translate( -3px, 0px);
+}
+@keyframes slideLeftReturn{ 
+	from { transform: translate( -3px, 0px); } 
+      to { transform: translate( 0px, 0px); } 
+} 
+
+@-moz-keyframes slideLeftReturn{ 
+	from { -moz-transform: translate( -3px, 0px); } 
+      to { -moz-transform: translate( 0px, 0px); } 
+} 
+
+@-webkit-keyframes slideLeftReturn{ 
+	from { -webkit-transform: translate( -3px, 0px); } 
+   	  to { -webkit-transform: translate( 0px, 0px); } 
+} 
+
+.gtvRemote-dPad-slideLeftReturn{ 
+	display:inline-block;
+	
+	animation-name: slideLeftReturn; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideLeftReturn; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideLeftReturn; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( 0px, 0px);
+	-moz-transform: translate( 0px, 0px);
+}
+
+
+
+
+
+
+
+//Slide Right And Return
+@keyframes slideRight{ 
+	from { transform: translate( 0px, 0px); } 
+      to { transform: translate( 3px, 0px); } 
+} 
+
+@-moz-keyframes slideRight{ 
+	from { -moz-transform: translate( 0px, 0px); } 
+      to { -moz-transform: translate( 3px, 0px); } 
+} 
+
+@-webkit-keyframes slideRight{ 
+	from { -webkit-transform: translate( 0px, 0px); } 
+   	  to { -webkit-transform: translate( 3px, 0px); } 
+} 
+
+.gtvRemote-dPad-slideRight{ 
+	display:inline-block;
+	
+	animation-name: slideRight; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideRight; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideRight; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( 3px, 0px);
+	-moz-transform: translate( 3px, 0px);
+}
+@keyframes slideRightReturn{ 
+	from { transform: translate( 3px, 0px); } 
+      to { transform: translate( 0px, 0px); } 
+} 
+
+@-moz-keyframes slideRightReturn{ 
+	from { -moz-transform: translate( 3px, 0px); } 
+      to { -moz-transform: translate( 0px, 0px); } 
+} 
+
+@-webkit-keyframes slideRightReturn{ 
+	from { -webkit-transform: translate( 3px, 0px); } 
+   	  to { -webkit-transform: translate( 0px, 0px); } 
+} 
+
+.gtvRemote-dPad-slideRightReturn{ 
+	display:inline-block;
+	
+	animation-name: slideRightReturn; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideRightReturn; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideRightReturn; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( 0px, 0px);
+	-moz-transform: translate( 0px, 0px);
+}
+
+
+
+
+
+
+
+
+//Slide Up And Return
+@keyframes slideUp{ 
+	from { transform: translate( 0px, 0px); } 
+      to { transform: translate( 0px, -3px); } 
+} 
+
+@-moz-keyframes slideUp{ 
+	from { -moz-transform: translate( 0px, 0px); } 
+      to { -moz-transform: translate( 0px, -3px); } 
+} 
+
+@-webkit-keyframes slideUp{ 
+	from { -webkit-transform: translate( 0px, 0px); } 
+   	  to { -webkit-transform: translate( 0px, -3px); } 
+} 
+
+.gtvRemote-dPad-slideUp{ 
+	display:inline-block;
+	
+	animation-name: slideUp; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideUp; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideUp; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( 0px, -3px);
+	-moz-transform: translate( 0px, -3px);
+}
+@keyframes slideUpReturn{ 
+	from { transform: translate( 0px, -3px); } 
+      to { transform: translate( 0px, 0px); } 
+} 
+
+@-moz-keyframes slideUpReturn{ 
+	from { -moz-transform: translate( 0px, -3px); } 
+      to { -moz-transform: translate( 0px, 0px); } 
+} 
+
+@-webkit-keyframes slideUpReturn{ 
+	from { -webkit-transform: translate( 0px, -3px); } 
+   	  to { -webkit-transform: translate( 0px, 0px); } 
+} 
+
+.gtvRemote-dPad-slideUpReturn{ 
+	display:inline-block;
+	
+	animation-name: slideUpReturn; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideUpReturn; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideUpReturn; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( 0px, 0px);
+	-moz-transform: translate( 0px, 0px);
+}
+
+
+
+
+
+
+//Slide Down And Return
+@keyframes slideDown{ 
+	from { transform: translate( 0px, 0px); } 
+      to { transform: translate( 0px, 3px); } 
+} 
+
+@-moz-keyframes slideDown{ 
+	from { -moz-transform: translate( 0px, 0px); } 
+      to { -moz-transform: translate( 0px, 3px); } 
+} 
+
+@-webkit-keyframes slideDown{ 
+	from { -webkit-transform: translate( 0px, 0px); } 
+   	  to { -webkit-transform: translate( 0px, 3px); } 
+} 
+
+.gtvRemote-dPad-slideDown{ 
+	display:inline-block;
+	
+	animation-name: slideDown; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideDown; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideDown; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( 0px, 3px);
+	-moz-transform: translate( 0px, 3px);
+}
+@keyframes slideDownReturn{ 
+	from { transform: translate( 0px, 3px); } 
+      to { transform: translate( 0px, 0px); } 
+} 
+
+@-moz-keyframes slideDownReturn{ 
+	from { -moz-transform: translate( 0px, 3px); } 
+      to { -moz-transform: translate( 0px, 0px); } 
+} 
+
+@-webkit-keyframes slideDownReturn{ 
+	from { -webkit-transform: translate( 0px, 3px); } 
+   	  to { -webkit-transform: translate( 0px, 0px); } 
+} 
+
+.gtvRemote-dPad-slideDownReturn{ 
+	display:inline-block;
+	
+	animation-name: slideDownReturn; 
+	animation-duration: 0.005s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideDownReturn; 
+	-moz-animation-duration: 0.005s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideDownReturn; 
+	-webkit-animation-duration: 0.005s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( 0px, 0px);
+	-moz-transform: translate( 0px, 0px);
+}
+
+
+
+
+
+
+
+
+.errorMessage {
+  color: red;
+}
+
+
+
+.gtvRemote-deviceDiscoverMenuPanel
+{
+	color						:	#FFFFFF;
+    text-shadow					:	1px 1px 1px #333333;
+    font-family					:	'DroidSansRegular';
+    font-size					:	16px;
+    word-spacing				:	0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+       
+	
+	background-color			:	#000000;
+	border-bottom				:  3px solid #404040;
+}
+
+
+
+
+.gtvRemote-scrollingMenu
+{
+	height						:	25px;
+}
+
+/* Style for Scroll Menu Buttons */
+.gtvRemote-scrollMenuPushButton
+{
+	overflow					:	hidden;
+	color						:	#FFFFFF;
+    text-shadow					:	1px 1px 1px #333333;
+    font-family					:	'DroidSansRegular';
+    font-size					:	18px;
+	line-height					:	60px;
+    word-spacing				:	0px;
+    text-align					:	left;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 10px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    cursor                      :	hand;
+    cursor                      :	pointer;
+    outline						:	none;
+    
+	
+	background-color			:	#000000;
+	-webkit-user-select: none;
+}
+
+.gtvRemote-scrollMenuPushButton-down-hovering
+{
+	
+	text-shadow					:	1px 1px 1px #CCCCCC;
+ 	color						:	#333333;
+ 	background-color			:	#FFFFFF;
+}
+
+.gtvRemote-scrollMenuPushButton-border0
+{
+	border-top					:	1px solid #000000;
+	overflow					:	hidden;
+}
+.gtvRemote-scrollMenuPushButton-border1
+{
+	border-top					:	1px solid #414141;
+	overflow					:	hidden;
+}
+
+.gtvRemote-scrollMenuPushButton-border-demo
+{
+	border						:	1px solid #414141;
+	overflow					:	hidden;
+}
+
+
+.gtvRemote-scrollDeviceMenuPushButton
+{
+	color						:	#FFFFFF;
+    text-shadow					:	1px 1px 1px #333333;
+    font-family					:	'DroidSansRegular';
+    font-size					:	16px;
+    word-spacing				:	0px;
+    text-align					:	left;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    cursor                      :	hand;
+    cursor                      :	pointer;
+    outline						:	none;
+    
+	
+	background-color			:	transparent;
+	-webkit-user-select: none;
+}
+.gtvRemote-scrollDeviceMenuPushButton-border0
+{
+	border-bottom				:	1px solid #000000;
+}
+.gtvRemote-scrollDeviceMenuPushButton-border1
+{
+	border-bottom				:	1px solid #414141;
+}
+
+
+
+.gtvRemote-scrollDeviceMenuPushButton-down-hovering
+{
+	filter:invert;
+	text-shadow					:	1px 1px 1px #CCCCCC;
+ 	color						:	#333333;
+ 	background-color			:	#FFFFFF;
+}
+
+
+
+.gtvRemote-scrollSettingsMenuPushButton
+{
+	color						:	#FFFFFF;
+    text-shadow					:	1px 1px 1px #333333;
+    font-family					:	'DroidSansRegular';
+    font-size					:	18px;
+    word-spacing				:	0px;
+    text-align					:	left;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    cursor                      :	pointer;
+    outline						:	none;
+    
+	
+	background-color			:	transparent;
+}
+.gtvRemote-scrollSettingsMenuPushButton-border0
+{
+	border-bottom				:	1px solid #000000;
+}
+.gtvRemote-scrollSettingsMenuPushButton-border1
+{
+	border-bottom				:	1px solid #39393b;
+}
+
+
+
+.gtvRemote-scrollSettingsMenuPushButton-down-hovering
+{
+	filter:invert;
+	text-shadow					:	1px 1px 1px #CCCCCC;
+ 	color						:	#333333;
+ 	background-color			:	#FFFFFF;
+}
+
+
+.gtvRemote-scrollSettingsLabel
+{
+	color						:	#bdbdbd;
+    text-shadow					:	1px 1px 1px #333333;
+    font-family					:	'DroidSansBold';
+    font-size					:	14px;
+    word-spacing				:	0px;
+    text-align					:	left;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    outline						:	none;
+    
+	border-bottom				:	3px solid #39393b;
+	background-color			:	transparent;
+}
+
+
+
+.gtvRemote-scrollPanelMenu
+{
+	overflow: hidden;
+	background-color			:   #000000;
+}
+
+.gtvRemote-footerUIBarPanel
+{
+	background-color			:   #000000;
+	border-style				:	solid;
+	border-top-width			:	1px;
+	border-top-color			:	#3f3f3f;
+	-webkit-user-select: none;
+}
+
+.gtvRemote-footerUIButton
+{
+
+	line-height					:	0px;
+    word-spacing				:	0px;
+    text-align					:	center;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    cursor                      :	hand;
+    cursor                      :	pointer;
+    outline						:	none;
+    
+	
+	
+}
+
+.gtvRemote-footerUIButton-down-hovering
+{
+	
+	border-radius: 2px;
+	
+}
+
+
+.gtvRemote-menuBarPanel
+{
+	background-color			:   #000000;
+	-webkit-user-select: none;
+}
+
+.gtvRemote-menuBarDeviceLabel
+{
+	color						:	#d7d7d7;
+	text-align					:	left;
+  text-shadow					:	1px 1px 1px #333333;
+  font-family					:	'DroidSansRegular';
+  font-size					:	15px;
+  overflow:hidden;
+	padding-left:5px;
+}
+
+.gtvRemote-menuBarDeviceLabel img
+{
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+}
+
+.gtvRemote-menuBarDeviceLabel-down-hovering
+{
+	color						:	#296683;
+	text-align					:	left;
+    font-family					:	'DroidSansRegular';
+    font-size					:	15px;
+	overflow:hidden;
+	padding-left:5px;
+    
+}
+
+.gtvRemote-menuBarDeviceLabel-down-hovering img
+{
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+}
+
+#menuBarText{
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  height: 25px;
+  line-height: 26px;
+  /* margin-bottom: 12px; */
+  margin-left: 30px;
+}
+
+.gtvRemote-menuBarButton
+{
+
+	line-height					:	0px;
+    word-spacing				:	0px;
+    text-align					:	center;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    cursor                      :	hand;
+    cursor                      :	pointer;
+    outline						:	none;
+    
+	
+	background-color			:	#000000;
+}
+
+.gtvRemote-menuBarButton-down-hovering
+{
+	background-color			:	#0099cc;
+	border-radius: 2px;
+	
+}
+
+.gtvRemote-menuBarButton2
+{
+
+	line-height					:	0px;
+    word-spacing				:	0px;
+    text-align					:	center;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    cursor                      :	default;
+    outline						:	none;
+    
+	
+	background-color			:	#000000;
+}
+
+.gtvRemote-menuBarButton2-down-hovering
+{
+	cursor                      :	default;
+
+	
+}
+
+.gtvRemote-appLauncherButton
+{
+	font-size					:	10px;
+	line-height					:	5px;
+    word-spacing				:	0px;
+    text-align					:	center;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    cursor                      :	hand;
+    cursor                      :	pointer;
+    outline						:	none;
+
+}
+
+.gtvRemote-appLauncherButton-down-hovering
+{
+	background-color			:	#0099cc;
+	border-radius: 10px;
+	
+}
+
+.gtvRemote-settingsMenuBarPanel
+{
+	color						:	#ffffff;
+	background-image: -webkit-gradient(
+  		linear, left top, left bottom, from(rgba(0,0,0,0.9)),
+  		to(rgba(39,45,51,0.9))
+	);
+}
+
+
+.gtvRemote-settingsMenuBarLine
+{
+	background-color			:	#0098cc;
+	font-size					:   1px;
+	
+}
+
+
+.gtvRemote-settingsMenuTabPanel
+{
+	
+	margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    
+    
+    outline						:	none;
+}
+
+
+
+
+.chromemote-TabBarButton {
+
+  color						: #ffffff;
+  text-shadow				: 1px 1px 1px #333333;
+  font-family				: 'DroidSansRegular';
+  font-size					: 14px;
+  cursor					: pointer;
+  background-color			: #303030;
+  border-bottom				: 5px solid #303030;
+  
+  outline					: none;
+  text-align				: center;
+  padding-top				: 12px;
+}
+
+.chromemote-TabBarButton-down-hovering {
+
+  text-shadow				: 2px 1px 1px #ECECEC;
+  color						: #333333;
+  background-color			: #FFFFFF;
+  border-bottom				: 5px solid #FFFFFF;
+}
+
+.chromemote-TabBarButton-up-disabled {
+	
+  color						: #ffffff;
+  text-shadow				: 1px 1px 1px #333333;
+  font-family				: 'DroidSansRegular';
+  font-size					: 14px;
+  cursor					: default;
+  background-color			: #303030;
+  border-bottom				: 5px solid #0099cc;
+  
+  outline					: none;
+  text-align				: center;
+  padding-top				: 12px;
+  
+  
+}
+
+
+.chromemote-TabBarSeperatorLayer {
+
+  background-color			: #383838;
+  border-bottom				: 11px solid #303030;
+  border-top				: 11px solid #303030;
+  
+  outline					: none;
+}
+
+
+.gtvRemote-deviceMenuButtons
+{
+
+	line-height					:	0px;
+    word-spacing				:	0px;
+    text-align					:	center;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 0px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+
+    cursor                      :	pointer;
+    outline						:	none;
+    
+	
+	background-color			:	#000000;
+	-webkit-user-select: none;
+}
+
+.gtvRemote-deviceMenuButtons-down-hovering
+{
+	background-color			:	#ffffff;
+	border-radius				:   0px;
+}
+
+
+.chromemote-settingsAppNameLabel {
+	color					: #ffffff;
+	font-family				: 'DroidSansRegular';
+    font-size				: 30px;
+  
+}
+
+.chromemote-settingsAppVersionLabel {
+	color					: #d8d2cb;
+	font-family				: 'DroidSansRegular';
+    font-size				: 15px;
+    font-weight				: bold;
+  
+}
+
+.chromemote-settingsAppInfoLabel {
+	color					: #d8d2cb;
+	font-family				: 'DroidSansRegular';
+    font-size				: 14px;
+    text-align:justify;
+  
+}
+
+.chromemote-settingsAppBugsLabel {
+	color					: #d8d2cb;
+	font-family				: 'DroidSansRegular';
+    font-size				: 12px;
+    text-align				: center;
+  
+}
+
+.chromemote-settingsAppEditionLabel {
+	color					: #ffffff;
+	font-family				: 'DroidSansRegular';
+    font-size				: 18px;
+  
+}
+
+.chromemote-settingsAppWwwHTML {
+	color					: #ffffff;
+	font-family				: 'DroidSansRegular';
+    font-size				: 16px;
+}
+
+.chromemote-webPageDemoRootPanel {
+	width: 1240px; 
+	margin: auto;
+}
+
+
+
+.gtvremote-pairingLabel
+{
+	position				: 	absolute;
+	color					:	#FFFFFF;
+	background-color		:	#333333;
+	border-color			:	#CCCCCC;
+	opacity					:	0.85;
+	box-shadow				:	0 0 30px rgba(0, 0, 0, 1);
+	padding					:	5px;
+	border-width			:	3px;
+	border-style			:	solid;
+	-webkit-border-radius	:	8px;
+	-moz-border-radius		:	8px;
+	
+}
+
+.gwt-PopupPanelGlass {
+  opacity:0.5;
+  filter:alpha(opacity=50);
+  background-color: black;
+}
+
+.gtvremote-DialogBox
+{
+	background-color			:	#636363;
+	border						:	0px solid #636363;
+	box-shadow					:	0 0 30px 5px #000000;
+	-webkit-border-radius		: 	2px;
+	-moz-border-radius			:	2px;
+	-webkit-user-select: none;
+	
+}
+.gtvremote-DialogBox .Caption
+{
+	color						:	#ffffff;
+	background-color			:	#000000;
+	font-size					:	22px;
+	font-family					:	'DroidSansRegular';
+	border-top					:	1px solid #636363;
+	border-bottom				:	2px solid #272727;
+	height						:	25px;
+	padding						:	10px;
+	cursor						:	move;
+	
+}
+.gtvremote-DialogBox2
+{
+	background-color			:	#636363;
+	border						:	0px solid #636363;
+	box-shadow					:	0 0 30px 5px #000000;
+	-webkit-border-radius		: 	2px;
+	-moz-border-radius			: 	2px;
+	border-top					:	1px solid #636363;
+}
+.gtvremote-DialogBox2.Caption
+{
+	background-color			:	#636363;
+	padding						:	0px;
+	
+}
+.gtvremote-DialogBox-message
+{
+	color						:	#ffffff;
+	background-color			:	#000000;
+	font-size					:	18px;
+	font-family					:	'DroidSansRegular';
+	padding-left				:	20px;
+	padding-top					:	10px;
+  
+}
+.gtvremote-DialogBox-message2
+{
+	color						:	#ffffff;
+	background-color			:	#000000;
+	font-size					:	13px;
+	font-family					:	'DroidSansRegular';
+	padding-left				:	10px;
+	padding-top					:	10px;
+	vertical-align				:	middle;
+  
+}
+
+.gtvremote-DialogBox-message3
+{
+	color						:	#e3e3e3;
+	background-color			:	#000000;
+	font-size					:	12px;
+	font-family					:	'DroidSansRegular';
+	padding-left				:	16px;
+	padding-bottom				:	12px;
+  	padding-right				:	16px;
+}
+
+.gtvremote-DialogBox-message4
+{
+	color						:	#e3e3e3;
+	background-color			:	#000000;
+	font-size					:	12px;
+	font-family					:	'DroidSansRegular';
+	padding-left				:	16px;
+	padding-bottom				:	0px;
+  
+}
+
+.chromemote-checkboxdefaults
+{
+	color						:	#ffffff;
+	background-color			:	#000000;
+	font-size					:	14px;
+	font-family					:	'DroidSansRegular';
+  
+}
+
+.gtvremote-Discovery-status
+{
+	color						:	#e3e3e3;
+	background-color			:	#000000;
+	font-size					:	15px;
+	font-family					:	'DroidSansRegular';
+
+  
+}
+.gtvremote-DialogBox-messagePanel
+{
+	background-color			:	#000000;
+	padding-left				:	10px;
+	padding-top					:	15px;
+  
+}
+
+
+.gtvremote-DialogBox-textBoxPanel
+{
+	color						:	#ffffff;
+	background-color			:	#000000;
+	font-size					:	18px;
+	font-family					:	'DroidSansRegular';
+	padding-top					:	6px;
+}
+.gtvremote-DialogBox-forcePinButtonPanel
+{
+	color						:	#ffffff;
+	background-color			:	#000000;
+	font-size					:	18px;
+	font-family					:	'DroidSansRegular';
+	padding-top					:	1px;
+}
+.gtvremote-DialogBox-textBox
+{
+	background-color			: 	#ffffff;
+	color						:	#000000;
+	font-family					:	'DroidSansRegular';
+    padding						: 	1px;
+    padding-left				:	10px;
+    padding-right				:	10px;
+    font-size					:	16px;
+    border-radius				: 	2px;
+    
+    
+}
+.gtvremote-DialogBox-textBox-empty
+{
+	background-color			: 	#ffffff;
+	color						:	#999999;
+	font-family					:	'DroidSansRegular';
+    padding						: 	1px;
+    padding-left				:	10px;
+    padding-right				:	10px;
+    font-size					:	16px;
+    border-radius				: 	2px;
+    
+    
+}
+
+.gtvremote-DialogBox-speechBox
+{
+	background-color			: 	#ffffff;
+	color						:	#000000;
+	font-family					:	'DroidSansRegular';
+    padding						: 	1px;
+    padding-left				:	10px;
+    padding-right				:	10px;
+    font-size					:	16px;
+    border-radius				: 	2px;
+
+    
+}
+.gtvremote-DialogBox-speechBox-empty
+{
+	background-color			: 	#ffffff;
+	color						:	#999999;
+	font-family					:	'DroidSansRegular';
+    padding						: 	1px;
+    padding-left				:	10px;
+    padding-right				:	10px;
+    font-size					:	16px;
+    border-radius				: 	2px;
+
+    
+}
+
+.gtvremote-DialogBox-footer
+{
+	background-color			:	#a8a8a8;
+	border-bottom				:	1px solid #636363;
+	padding						:	0px;
+	
+}
+
+.gtvRemote-DialogBox-PushButton
+{
+    background-color			: 	#d6d6d6;
+    padding						: 	2px;
+    font-size					:	12px;
+    font-family					:	'DroidSansRegular';
+    color						: 	#000000;
+    border						:	solid 1px #7e7e7e;
+    background					:	#d6d6d6;
+    background					:	-webkit-gradient(linear, left top, left bottom, from(#e0e0e0), to(#cccccc));
+    background					:	-moz-gradient(linear, left top, left bottom, from(#e0e0e0), to(#cccccc));
+    box-shadow					: 	0 0 2px rgba(0,0,0,.2);
+    cursor						:	pointer;
+    cursor						:	hand;
+}
+.gtvRemote-DialogBox-PushButton:active
+{
+	position					: 	relative;
+	top							: 	1px;
+	
+}
+
+.gtvRemote-DialogBox-PushButton:disabled
+{
+    
+    color						: 	#989898;
+    border						:	solid 1px #7e7e7e;
+    
+    background					:	#d6d6d6;
+    background					:	-webkit-gradient(linear, left top, left bottom, from(#e0e0e0), to(#cccccc));
+    background					:	-moz-gradient(linear, left top, left bottom, from(#e0e0e0), to(#cccccc));
+    box-shadow					: 	0 0 2px rgba(0,0,0,.1);
+}
+
+.gtvRemote-DialogBox-PushButton:active:disabled
+{
+	position					: 	relative;
+	top							: 	0px;
+	
+}
+
+.gtvremote-DialogBox-waitingImg {
+	 
+	 -webkit-animation-name: rotateSpinner;
+	 -webkit-animation-duration: 1.5s;
+	 -webkit-animation-iteration-count: infinite;
+	 -webkit-animation-timing-function: linear;
+	 
+	 -moz-animation-name: rotateSpinner;
+	 -moz-animation-duration: 1.5s;
+	 -moz-animation-iteration-count: infinite;
+	 -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotateSpinner {
+  from 
+  {
+    -webkit-transform: rotate(0deg);
+  }
+  to 
+  {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotateSpinner {
+  from 
+  {
+    -moz-transform: rotate(0deg);
+  }
+  to 
+  {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+@keyframes shake{ 
+	 0% { transform: translate( 2px, 0px); } 
+	25% { transform: translate(-2px, 0px); } 
+	50% { transform: translate( 2px, 0px); }
+	70% { transform: translate(-2px, 0px); }
+	80% { transform: translate( 1px, 0px); }
+	90% { transform: translate(-1px, 0px); } 
+   100% { transform: translate( 1px, 0px); } 
+} 
+
+@-moz-keyframes shake{ 
+	 0% { -moz-transform: translate( 2px, 0px); } 
+	25% { -moz-transform: translate(-2px, 0px); } 
+	50% { -moz-transform: translate( 2px, 0px); }
+	70% { -moz-transform: translate(-2px, 0px); }
+	80% { -moz-transform: translate( 1px, 0px); }
+	90% { -moz-transform: translate(-1px, 0px); } 
+   100% { -moz-transform: translate( 1px, 0px); } 
+} 
+
+@-webkit-keyframes shake { 
+	 0% { -webkit-transform: translate( 2px, 0px); } 
+	25% { -webkit-transform: translate(-2px, 0px); } 
+	50% { -webkit-transform: translate( 2px, 0px); }
+	70% { -webkit-transform: translate(-2px, 0px); }
+	80% { -webkit-transform: translate( 1px, 0px); }
+	90% { -webkit-transform: translate(-1px, 0px); } 
+   100% { -webkit-transform: translate( 1px, 0px); } 
+} 
+
+.gtvremote-DialogBox-shake{ 
+	display:inline-block;
+	
+	animation-name: shake; 
+	animation-duration: 0.40s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: shake; 
+	-moz-animation-duration: 0.40s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: infinite; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: shake; 
+	-webkit-animation-duration: 0.40s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-timing-function: linear; 
+}
+
+
+@keyframes slideOut{ 
+	from { transform: translate( 0px, 0px); } 
+      to { transform: translate( -320px, 0px); } 
+} 
+
+@-moz-keyframes slideOut{ 
+	from { -moz-transform: translate( 0px, 0px); } 
+      to { -moz-transform: translate( -320px, 0px); } 
+} 
+
+@-webkit-keyframes slideOut{ 
+	from { -webkit-transform: translate( 0px, 0px); } 
+   	  to { -webkit-transform: translate( -320px, 0px); } 
+} 
+
+.gtvRemote-PushButton-slideOut{ 
+	display:inline-block;
+	
+	animation-name: slideOut; 
+	animation-duration: 0.40s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideOut; 
+	-moz-animation-duration: 0.40s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideOut; 
+	-webkit-animation-duration: 0.40s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( -320px, 0px);
+	-moz-transform: translate( -320px, 0px);
+}
+
+@keyframes slideIn{ 
+	from { transform: translate( -320px, 0px); } 
+      to { transform: translate(    0px, 0px); } 
+} 
+
+@-moz-keyframes slideIn{ 
+	from { -moz-transform: translate( -320px, 0px); } 
+      to { -moz-transform: translate(    0px, 0px); } 
+} 
+
+@-webkit-keyframes slideIn{ 
+	from { -webkit-transform: translate( -320px, 0px); } 
+   	  to { -webkit-transform: translate(    0px, 0px); } 
+} 
+
+.gtvRemote-PushButton-slideIn{ 
+	display:inline-block;
+	
+	animation-name: slideIn; 
+	animation-duration: 0.40s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: slideIn; 
+	-moz-animation-duration: 0.40s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: slideIn; 
+	-webkit-animation-duration: 0.40s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: translate( 0px, 0px);
+	-moz-transform: translate( 0px, 0px);
+}
+
+
+
+@keyframes scaleOut{ 
+	from { transform: scale( 1); } 
+      to { transform: scale( 0); } 
+} 
+
+@-moz-keyframes scaleOut{ 
+	from { -moz-transform: scale( 1); } 
+      to { -moz-transform: scale( 0); } 
+} 
+
+@-webkit-keyframes scaleOut{ 
+	from { -webkit-transform: scale( 1); } 
+   	  to { -webkit-transform: scale( 0); } 
+} 
+
+.gtvRemote-PushButton-scaleOut{ 
+	display:inline-block;
+	
+	animation-name: scaleOut; 
+	animation-duration: 0.15s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: scaleOut; 
+	-moz-animation-duration: 0.15s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: scaleOut; 
+	-webkit-animation-duration: 0.15s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: scale( 0);
+	-moz-transform: scale( 0);
+}
+
+@keyframes scaleIn{ 
+	from { transform: scale( 0); } 
+      to { transform: scale( 1); } 
+} 
+
+@-moz-keyframes scaleIn{ 
+	from { -moz-transform: scale( 0); } 
+      to { -moz-transform: scale( 1); } 
+} 
+
+@-webkit-keyframes scaleIn{ 
+	from { -webkit-transform: scale( 0); } 
+   	  to { -webkit-transform: scale( 1); } 
+} 
+
+.gtvRemote-PushButton-scaleIn{ 
+	display:inline-block;
+	
+	animation-name: scaleIn; 
+	animation-duration: 0.15s; 
+	transform-origin:50% 50%; 
+	animation-iteration-count: 1; 
+	animation-timing-function: linear; 
+	
+	-moz-animation-name: scaleIn; 
+	-moz-animation-duration: 0.15s; 
+	-moz-transform-origin:50% 50%; 
+	-moz-animation-iteration-count: 1; 
+	-moz-animation-timing-function: linear; 
+	
+	-webkit-animation-name: scaleIn; 
+	-webkit-animation-duration: 0.15s; 
+	-webkit-transform-origin:50% 50%; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: linear; 
+	
+	-webkit-transform: scale( 1);
+	-moz-transform: scale( 1);
+}
+
+.gtvremote_tab_page
+{
+	color		:	#262c33;
+	font-size	:	14px;
+	text-shadow	: 	2px 2px #dbdbdb;
+	
+}
+
+.gtvremote_tab_page_link
+{
+	color		:	#3a424b;
+	font-size	:	14px;
+	text-shadow	: 	2px 2px #dbdbdb;
+	
+}
+
+
+.gtvremote_tab_page_link A:link {	
+	color: #3a424b;
+	font-size	:	12px;
+	text-decoration: none;
+}
+
+.gtvremote_tab_page_link A:hover {	
+	color: red; 
+	text-decoration: underline;
+}
+
+.gtvremote_tab_page_link A:visited {	
+	color: #3a424b; 
+	
+}
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+
+.chromemote-deviceContextMenuButton
+{
+	color						:	#FFFFFF;
+    text-shadow					:	1px 1px 1px #333333;
+    font-family					:	'DroidSansRegular';
+    font-size					:	16px;
+	line-height					:	24px;
+    word-spacing				:	0px;
+    text-align					:	left;
+    word-wrap					:	break-word;
+    margin                      :   0px 0px;
+    padding                     :   0 10px;
+    
+    border-top-style			:	none;
+    border-bottom-style			:	none;
+	border-left-style			:	none;
+    border-right-style			:	none;
+    
+    cursor                      :	pointer;
+    outline						:	none;
+    
+	
+	background-color			:	#000000;
+	-webkit-user-select: none;
+	
+	border					:	1px solid #414141;
+}
+
+.chromemote-deviceContextMenuButton-down-hovering
+{
+	
+	text-shadow					:	1px 1px 1px #CCCCCC;
+ 	color						:	#333333;
+ 	background-color			:	#FFFFFF;
+}
+
+.chromemote-deviceContextMenu
+{
+	background-color			:	#636363;
+	border						:	1px solid #636363;
+	border-right				:	1px solid #636363;
+	box-shadow					:	0 0 30px 5px #000000;
+	-webkit-border-radius		: 	2px;
+	-moz-border-radius			:	2px;
+	-webkit-user-select: none;
+	
+}

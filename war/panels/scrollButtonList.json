@@ -1,0 +1,105 @@
+[
+  {
+    "index"		: 1,
+	"name"		: "ON/OFF",
+    "subName"	: "TV",
+	"keyCode"	: "SP_KEYCODE_TV_POWER",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  {
+    "index"		: 2,
+	"name"		: "Switch input",
+    "subName"	: "TV",
+	"keyCode"	: "SP_KEYCODE_TV_INPUT",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  {
+    "index"		: 3,
+	"name"		: "ON/OFF",
+    "subName"	: "AV Receiver",
+	"keyCode"	: "SP_KEYCODE_AVR_POWER",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  {
+    "index"		: 4,
+	"name"		: "Pop Up/Menu",
+    "subName"	: "BD",
+	"keyCode"	: "SP_KEYCODE_BD_POPUP_MENU",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  
+  
+  {
+    "index"		: 5,
+	"name"		: "Top Menu",
+    "subName"	: "BD",
+	"keyCode"	: "SP_KEYCODE_BD_TOP_MENU",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  {
+    "index"		: 6,
+	"name"		: "Eject",
+    "subName"	: "BD",
+	"keyCode"	: "SP_KEYCODE_EJECT",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  {
+    "index"		: 7,
+	"name"		: "button",
+    "subName"	: "RED",
+	"keyCode"	: "SP_KEYCODE_PROG_RED",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  {
+    "index"		: 8,
+	"name"		: "button",
+    "subName"	: "GREEN",
+	"keyCode"	: "SP_KEYCODE_PROG_GREEN",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  
+  
+  {
+    "index"		: 9,
+	"name"		: "button",
+    "subName"	: "YELLOW",
+	"keyCode"	: "SP_KEYCODE_PROG_YELLOW",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  {
+    "index"		: 10,
+	"name"		: "button",
+    "subName"	: "BLUE",
+	"keyCode"	: "SP_KEYCODE_PROG_BLUE",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+  {
+    "index"		: 11,
+	"name"		: "Settings",
+    "subName"	: "Google TV",
+	"keyCode"	: "SP_KEYCODE_SETTINGS",
+	"iconUp"	: "",
+	"iconDown"	: "",
+	
+  },
+]
